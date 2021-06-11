@@ -110,7 +110,7 @@ function createHtml(template, page, markdown) {
     console.log("Converting " + page.src + " to " + dest);
 
     // Write final output
-    fs.writeFile("build/" + dest, output, (error) => {
+    fs.writeFile("docs/" + dest, output, (error) => {
         if (error) {
             console.log(error);
         }
@@ -119,7 +119,7 @@ function createHtml(template, page, markdown) {
 
 
 function convert() {
-    fs.readFileAsync("build/template.html", "utf-8")
+    fs.readFileAsync("docs/template.html", "utf-8")
         .then(template => {
             pages.forEach(page => {
                 fs.readFileAsync("pages/" + page.src, "utf-8")
