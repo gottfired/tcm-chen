@@ -1,0 +1,188 @@
+/* Wavy background is put together using a gradient and a wave*/
+div.gradient {
+  background: #ba551d; /* Fallback if no gradient support */
+  background: linear-gradient(#ba551d, #ef9b6d); /* Standard */
+  background: -webkit-linear-gradient(#ba551d, #ef9b6d); /* For Safari 5.1 to 6.0 */
+  background: -moz-linear-gradient(#ba551d, #ef9b6d); /* For Firefox 3.6 to 15 */
+  margin:0px;
+  height:600px;
+  width:100%;
+  z-index:-2;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+div.background-wave {
+    background-image:url('assets/background_wave.png');
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    width:100%;
+    height:771px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+
+
+/* Desktop navigation styles */
+a.navigation {
+    text-align:left;
+    font-family:"Arial";
+    font-size:14px;
+    color:#f3cfb6;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a.navigation_current {
+    text-align:left;
+    font-family:"Arial";
+    font-size:14px;
+    color:#6b1e15;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#6b1e15;
+}
+
+div.header {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -moz-flex;
+    display: -moz-flexbox;      
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -o-flex;
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex; 
+
+    -webkit-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: rorow-reversew;
+    -o-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+
+    align-items:center;
+}
+
+p.header {
+    color: #f3cfb6;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+    line-height: 130%;
+}
+
+p.navigation {
+    margin-bottom:5px;
+    text-align:left;
+    font-family:"Arial";
+    font-size:14px;
+    color:#f3cfb6;
+    font-weight:bold;
+}
+
+/* Customize Bootstrap */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    /* Set max width of container to match the images */
+    max-width: 700px;
+}
+
+.content {
+    background:#f3cfb6; 
+    border-radius:10px;
+}
+
+@media(max-width:767px){
+    .content {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+}
+
+
+.page-title {
+    background-color: #c23725;
+    border-radius: 10px 10px 0px 0px;
+    font-style:italic;
+    color:#f3cfb6;
+    /* This is like wrap-content in Android xml. Makes width of element
+        exactly the content size */
+    display:inline-block;
+    padding:2%;
+    padding-bottom:1.5%;
+    margin-top:4%;
+    margin-left:2%;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 10px #444;
+}
+
+h4 {
+    color: #c23725;
+    font-weight: bold;
+}
+
+h5 {
+    color: #c23725;
+}
+
+p {
+    line-height:1.3em;
+}
+
+
+/* navbar colors */
+.navbar-default {
+    border-width: 0;
+    margin: 0; 
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #c23725;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #ffeee2;
+    color: #932618;
+}
+
+
+/* Replaces carousel slide with fade anim 
+Taken from https://codepen.io/Rowno/pen/Afykb */
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+
+
+/* navbar padding too big */
+/*.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}*/
