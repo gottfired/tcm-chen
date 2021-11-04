@@ -13,9 +13,6 @@ Ich freue mich auf Ihren Besuch
 
 #### <br>News
 
-##### 12.09.2019 - Aufnahmesperre
-Um genügend Zeit für meine Patienten zu haben, kann ich leider keine neuen Patienten mehr nehmen..
-
 ##### 12.11.2017 - Klimaschutz
 Um diese Ordination (inklusive Import der Akupunkturnadeln und chinesischer Kräuter)möglichst CO2 neutral zu führen, unterstützen wir Grundstückskäufe und
 Wiederbewaldungen im Regenwald der Österreicher in Costa Rica mit **830m2 und 15 gepflanzten Bäumen.**
