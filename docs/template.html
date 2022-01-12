@@ -1,114 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>TCM-Chen</title>
 
-<head>
-  <title>TCM-Chen</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Praxis Homepage von Dr. Heidrun Chen" />
+    <meta name="keywords" content="TCM Arzt Baden Akupunktur" />
 
-  <meta name="description" content="Praxis Homepage von Dr. Heidrun Chen">
-  <meta name="keywords" content="TCM Arzt Baden Akupunktur">
+    <!--Turn of cache for testing. Taken from here http://stackoverflow.com/questions/1341089/using-meta-tags-to-turn-off-caching-in-all-browsers-->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
-  <!--Turn of cache for testing. Taken from here http://stackoverflow.com/questions/1341089/using-meta-tags-to-turn-off-caching-in-all-browsers-->
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <script src="email.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <body style="background-color: #501c10">
+    <div class="gradient"></div>
+    <div class="background-wave"></div>
 
-  <script src="email.js"></script>
+    <!--Header mobile-->
+    <div class="container visible-xs-block">
+      <!--Header-->
+      <div class="row header" style="margin-top: 0.5em; margin-bottom: 0.5em">
+        <img
+          src="assets/logo_small.png"
+          style="margin-left: 2%; margin-right: 2%"
+        />
+        <p align="right" class="header" style="font-size: 0.9em">
+          <span style="font-size: 1.4em"> TCM Chen<br /> </span> Praxis für
+          Chinesische Medizin<br />
+          Schwartzstraße 7/Haus 7, 2500 Baden<br />
+          Tel. 0699 817 24 716
+        </p>
+      </div>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body style="background-color:#501c10;">
-
-  <div class="gradient"></div>
-  <div class="background-wave"></div>
-
-  <!--Header mobile-->
-  <div class="container visible-xs-block">
-
-    <!--Header-->
-    <div class="row header" style="
-      margin-top: 0.5em;
-      margin-bottom: 0.5em;
-    ">
-      <img src="assets/logo_small.png" style="margin-left:2%; margin-right:2%">
-      <p align="right" class="header" style="font-size:0.9em;">
-        <span style="font-size: 1.4em">
-      TCM Chen<br>
-      </span> Praxis für Chinesische Medizin<br> Biondekg. 8-10/4/6, 2500 Baden<br> Tel. 0699 817 24 716
-      </p>
+      <div class="row">
+        <!--Navbar-->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#myNavbar"
+              >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                #{navbarMobile}
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
 
-    <div class="row">
+    <!--Header desktop-->
+    <div class="container hidden-xs">
+      <br /><br />
+
+      <!--Header-->
+      <div class="row header">
+        <img src="assets/logo.png" />
+        <div style="width: 2%"></div>
+        <p align="right" class="header" style="font-size: 1.2em">
+          <span style="font-size: 1.4em"> TCM Chen<br /> </span> Praxis für
+          Traditionelle Chinesische Medizin<br />
+          Schwartzstraße 7/Haus 7, 2500 Baden, Tel. 0699 817 24 716
+        </p>
+      </div>
+
+      <br />
+
       <!--Navbar-->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-          </button>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              #{navbarMobile}
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </div>
-
-  <!--Header desktop-->
-  <div class="container hidden-xs">
-    <br><br>
-
-    <!--Header-->
-    <div class="row header">
-      <img src="assets/logo.png">
-      <div style="width:2%"></div>
-      <p align="right" class="header" style="font-size: 1.2em;">
-        <span style="font-size: 1.4em">
-      TCM Chen<br>
-      </span> Praxis für Traditionelle Chinesische Medizin<br> Biondekg. 8-10/4/6, 2500 Baden, Tel. 0699 817 24 716
-      </p>
+      <p class="navigation">#{navbarDesktop}</p>
     </div>
 
-    <br>
+    <!--Content starts here-->
+    <div class="container content">
+      <h3 class="page-title">#{post.title}</h3>
 
-    <!--Navbar-->
-    <p class="navigation">
-      #{navbarDesktop}
-    </p>
-  </div>
+      <div class="row">#{post.slideshow}</div>
 
-  <!--Content starts here-->
-  <div class="container content">
-
-    <h3 class="page-title">#{post.title}</h3>
-
-    <div class="row">
-      #{post.slideshow}
+      <div class="row" style="padding-left: 4%; padding-right: 4%">
+        <br />
+        #{post.content}
+      </div>
+      <br />
     </div>
-
-
-
-    <div class="row" style="padding-left:4%; padding-right:4%;">
-      <br> #{post.content}
-    </div>
-    <br>
-  </div>
-  <br>
-
-</body>
-
+    <br />
+  </body>
 </html>
