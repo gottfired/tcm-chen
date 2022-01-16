@@ -26,7 +26,7 @@ Verleihung des Fortbildungsdiploms der Österreichischen Ärztekammer.
 Um diese Ordination (inklusive Import der Akupunkturnadeln und chinesischer Kräuter)möglichst CO2 neutral zu führen, unterstützen wir Grundstückskäufe und
 Wiederbewaldungen im Regenwald der Österreicher in Costa Rica mit **830m2 und 15 gepflanzten Bäumen.**
 
-##### 25.6.2021 - Fortbildungsdiplom
+##### 25.6.2016 - Fortbildungsdiplom
 
 Verleihung des Fortbildungsdiploms der Österreichischen Ärztekammer.
 
