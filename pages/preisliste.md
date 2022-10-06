@@ -1,13 +1,12 @@
 #### Erwachsene
 
-Erstordination: **150€**
+Erstordination: **150 €**
 
-Folgeordination: **80€**
+Folgeordination: **90 €**
 
 <br>
 #### Kinder
 
-Erstordination: **120€**
+Erstordination: **120 €**
 
-Folgeordination: **60€**
- 
+Folgeordination: **70 €**
