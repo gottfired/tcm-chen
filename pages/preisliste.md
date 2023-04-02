@@ -2,7 +2,7 @@
 
 Erstordination: **150 €**
 
-Folgeordination: **90 €**
+Folgeordination: **100 €**
 
 <br>
 #### Kinder

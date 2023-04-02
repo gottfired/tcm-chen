@@ -68,7 +68,7 @@ function createSlideshow(page) {
                     <div class="carousel-inner" role="listbox">\n';
 
         page.images.forEach((image, index) => {
-            let entry = util.format('<div class="item %s"><img src="assets/%s" alt="image_%d"></div>\n',
+            let entry = util.format('<div class="item %s"><img src="assets/%s" width="100%" alt="image_%d"></div>\n',
                 index == 0 ? "active" : "", image, index);
             ret += entry;
         });
@@ -76,7 +76,7 @@ function createSlideshow(page) {
         ret += '</div>\n</div>';
 
     } else {
-        ret = '<img src="assets/' + page.images[0] + '" alt="placeholder 960" class="img-responsive center-block"/>';
+        ret = '<img src="assets/' + page.images[0] + '" alt="placeholder 960" width="100%" class="img-responsive center-block"/>';
     }
 
     return ret;
