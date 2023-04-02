@@ -31,23 +31,23 @@ div.background-wave {
 a.navigation {
     text-align:left;
     font-family:"Arial";
-    font-size:14px;
+    font-size:16px;
     color:#c23725;
-    /* font-weight:bold; */
     text-decoration:none;
 }
 
 a.navigation_current {
     text-align:left;
     font-family:"Arial";
-    font-size:14px;
+    font-size:16px;
     color:#6b1e15;
     font-weight:bold;
-    text-decoration:none;
+    text-decoration: underline;
 }
 
 a:hover {
     color:#6b1e15;
+    text-decoration: underline;
 }
 
 div.header {
@@ -71,7 +71,6 @@ div.header {
 
 p.header {
     color: black;
-    font-weight: bold;
     line-height: 130%;
 }
 
@@ -79,9 +78,8 @@ p.navigation {
     margin-bottom:5px;
     text-align:left;
     font-family:"Arial";
-    font-size:14px;
+    font-size:20px;
     color:#c23725;
-    font-weight:bold;
 }
 
 /* Customize Bootstrap */
@@ -93,7 +91,7 @@ p.navigation {
 }
 
 .content {
-    background:#f3cfb6; 
+    background:#fdf0e7; 
     border-radius:20px;
     box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
 }
@@ -108,9 +106,9 @@ p.navigation {
 
 .page-title {
     background-color: #c23725;
-    border-radius: 10px 10px 0px 0px;
-    font-style:italic;
-    color:#f3cfb6;
+    border-radius: 14px 14px 0px 0px;
+    /* font-style:italic; */
+    color:#fdf0e7;
     /* This is like wrap-content in Android xml. Makes width of element
         exactly the content size */
     display:inline-block;
@@ -119,21 +117,30 @@ p.navigation {
     margin-top:4%;
     margin-left:2%;
     margin-bottom: 0;
-    box-shadow: 0px 0px 10px #444;
+    box-shadow: 0px 0px 16px rgba(129, 129, 129, 0.557);
 }
 
 h4 {
     color: #c23725;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 32px;
 }
 
 h5 {
     color: #c23725;
+    font-size: 16px;
 }
 
 p {
     line-height:1.3em;
+    font-size: 16px;
 }
+
+li {
+    font-size: 16px;
+}
+
 
 
 /* navbar colors */
@@ -145,23 +152,23 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a {
-    background-color: #f3cfb6;
+    background-color: #fdf0e7;
     color: #c23725;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #ffeee2;
+    background-color: #fdf0e7;
     border-bottom: 0;
     color: #932618;
 }
 
 .navbar-header {
-    background-color: #f3cfb6;
+    background-color: #fdf0e7;
     border-radius: 20px 20px 0 0;
 }
 
 .navbar-collapse {
-    background-color: #f3cfb6;
+    background-color: #fdf0e7;
 }
 
 .navbar-default .navbar-toggle {
