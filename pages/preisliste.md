@@ -9,4 +9,4 @@ Folgeordination: **100 €**
 
 Erstordination: **120 €**
 
-Folgeordination: **70 €**
+Folgeordination: **80 €**
