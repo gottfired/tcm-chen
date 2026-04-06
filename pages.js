@@ -11,7 +11,7 @@ module.exports = [
   {
     title: "Qi Gong Kurse",
     src: "qi_gong.md",
-    images: ["book.jpg", "head_massage.jpg", "food.jpg"],
+    images: ["qigong.jpg", "taichi.jpg", "yinyang.jpg"],
   },
   {
     title: "Über mich",
