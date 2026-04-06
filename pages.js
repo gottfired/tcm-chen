@@ -9,6 +9,11 @@ module.exports = [
     ],
   },
   {
+    title: "Qi Gong Kurse",
+    src: "qi_gong.md",
+    images: ["book.jpg", "head_massage.jpg", "food.jpg"],
+  },
+  {
     title: "Über mich",
     src: "ueber_mich.md",
     images: ["portrait_1.jpg", "portrait_2.jpg", "portrait_3.jpg"],
@@ -29,8 +34,8 @@ module.exports = [
     images: ["acupuncture.jpg", "herbs.jpg", "palm_massage.jpg"],
   },
   {
-    title: "Kontakt",
-    src: "kontakt.md",
+    title: "Infos",
+    src: "infos.md",
     images: ["map.png"],
   },
   /*{
@@ -38,9 +43,9 @@ module.exports = [
         src: "links.md",
         images: ["photo_1.jpg"]
     }*/
-  {
-    title: "Preisliste",
-    src: "preisliste.md",
-    images: ["photo_1.jpg"],
-  },
+  // {
+  //   title: "Preisliste",
+  //   src: "preisliste.md",
+  //   images: ["photo_1.jpg"],
+  // },
 ];

@@ -2,189 +2,198 @@
 div.gradient {
   background: #ba551d; /* Fallback if no gradient support */
   background: linear-gradient(#ba551d, #ef9b6d); /* Standard */
-  background: -webkit-linear-gradient(#ba551d, #ef9b6d); /* For Safari 5.1 to 6.0 */
-  background: -moz-linear-gradient(#ba551d, #ef9b6d); /* For Firefox 3.6 to 15 */
-  margin:0px;
-  height:600px;
-  width:100%;
-  z-index:-2;
+  background: -webkit-linear-gradient(
+    #ba551d,
+    #ef9b6d
+  ); /* For Safari 5.1 to 6.0 */
+  background: -moz-linear-gradient(
+    #ba551d,
+    #ef9b6d
+  ); /* For Firefox 3.6 to 15 */
+  margin: 0px;
+  height: 600px;
+  width: 100%;
+  z-index: -2;
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
 }
 
 div.background-wave {
-    background-image:url('assets/background_wave.png');
-    background-repeat:no-repeat;
-    background-attachment: scroll;
-    background-position: center top;
-    width:100%;
-    height:771px;
-    position:absolute;
-    left:0px;
-    top:0px;
-    z-index:-1;
+  background-image: url("assets/background_wave.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  width: 100%;
+  height: 771px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
-
 
 /* Desktop navigation styles */
 a.navigation {
-    text-align:left;
-    font-family:"Arial";
-    font-size:16px;
-    color:#c23725;
-    text-decoration:none;
+  text-align: left;
+  font-family: "Arial";
+  font-size: 16px;
+  color: #c23725;
+  text-decoration: none;
 }
 
 a.navigation_current {
-    text-align:left;
-    font-family:"Arial";
-    font-size:16px;
-    color:#6b1e15;
-    font-weight:bold;
-    text-decoration: underline;
+  text-align: left;
+  font-family: "Arial";
+  font-size: 16px;
+  color: #6b1e15;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 a:hover {
-    color:#6b1e15;
-    text-decoration: underline;
+  color: #6b1e15;
+  text-decoration: underline;
 }
 
 div.header {
-    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -moz-flex;
-    display: -moz-flexbox;      
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -o-flex;
-    display: -webkit-flex;     /* NEW - Chrome */
-    display: flex; 
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -moz-flex;
+  display: -moz-flexbox;
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -o-flex;
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex;
 
-    -webkit-flex-direction: row-reverse;
-    -moz-flex-direction: row-reverse;
-    -ms-flex-direction: rorow-reversew;
-    -o-flex-direction: row-reverse;
-    flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  -ms-flex-direction: rorow-reversew;
+  -o-flex-direction: row-reverse;
+  flex-direction: row-reverse;
 
-    align-items:center;
+  align-items: center;
 }
 
 p.header {
-    color: black;
-    line-height: 130%;
+  color: black;
+  line-height: 130%;
 }
 
 p.navigation {
-    margin-bottom:5px;
-    text-align:left;
-    font-family:"Arial";
-    font-size:20px;
-    color:#c23725;
+  margin-bottom: 5px;
+  text-align: left;
+  font-family: "Arial";
+  font-size: 20px;
+  color: #c23725;
 }
 
 /* Customize Bootstrap */
 .container {
-    margin-right: auto;
-    margin-left: auto;
-    /* Set max width of container to match the images */
-    max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  /* Set max width of container to match the images */
+  max-width: 800px;
 }
 
 .content {
-    background:#fdf0e7; 
-    border-radius:20px;
-    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+  background: #fdf0e7;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
 }
 
-@media(max-width:767px){
-    .content {
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-    }
+@media (max-width: 767px) {
+  .content {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
 }
-
 
 .page-title {
-    background-color: #c23725;
-    border-radius: 14px 14px 0px 0px;
-    /* font-style:italic; */
-    color:#fdf0e7;
-    /* This is like wrap-content in Android xml. Makes width of element
+  background-color: #c23725;
+  border-radius: 14px 14px 0px 0px;
+  /* font-style:italic; */
+  color: #fdf0e7;
+  /* This is like wrap-content in Android xml. Makes width of element
         exactly the content size */
-    display:inline-block;
-    padding:2%;
-    padding-bottom:1.5%;
-    margin-top:4%;
-    margin-left:2%;
-    margin-bottom: 0;
-    box-shadow: 0px 0px 16px rgba(129, 129, 129, 0.557);
+  display: inline-block;
+  padding: 2%;
+  padding-bottom: 1.5%;
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-bottom: 0;
+  box-shadow: 0px 0px 16px rgba(129, 129, 129, 0.557);
+}
+
+h3 {
+  color: #c23725;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 32px;
 }
 
 h4 {
-    color: #c23725;
-    font-weight: 500;
-    font-size: 18px;
-    margin-top: 32px;
+  color: #c23725;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 32px;
 }
 
 h5 {
-    color: #c23725;
-    font-size: 16px;
+  color: #c23725;
+  font-size: 16px;
 }
 
 p {
-    line-height:1.3em;
-    font-size: 16px;
+  line-height: 1.3em;
+  font-size: 16px;
 }
 
 li {
-    font-size: 16px;
+  font-size: 16px;
 }
-
-
 
 /* navbar colors */
 .navbar-default {
-    border-width: 0;
-    margin: 0; 
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
+  border-width: 0;
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .navbar-default .navbar-nav > li > a {
-    background-color: #fdf0e7;
-    color: #c23725;
+  background-color: #fdf0e7;
+  color: #c23725;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #fdf0e7;
-    border-bottom: 0;
-    color: #932618;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #fdf0e7;
+  border-bottom: 0;
+  color: #932618;
 }
 
 .navbar-header {
-    background-color: #fdf0e7;
-    border-radius: 20px 20px 0 0;
+  background-color: #fdf0e7;
+  border-radius: 20px 20px 0 0;
 }
 
 .navbar-collapse {
-    background-color: #fdf0e7;
+  background-color: #fdf0e7;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: transparent;   
+  border-color: transparent;
 }
-
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: black;    
+  background-color: black;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
 }
-
-
 
 /* Replaces carousel slide with fade anim 
 Taken from https://codepen.io/Rowno/pen/Afykb */
@@ -211,10 +220,8 @@ Taken from https://codepen.io/Rowno/pen/Afykb */
 .carousel-fade .carousel-inner .active.right {
   left: 0;
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
-
-
 
 /* navbar padding too big */
 /*.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}*/
