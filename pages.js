@@ -19,7 +19,7 @@ module.exports = [
     images: ["portrait_1.jpg", "portrait_2.jpg", "portrait_3.jpg"],
   },
   {
-    title: "Was ist TCM",
+    title: "Was ist TCM?",
     src: "tcm.md",
     images: ["book.jpg", "head_massage.jpg", "food.jpg"],
   },

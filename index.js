@@ -18,35 +18,14 @@ function destFileNameForPage(page) {
 }
 
 
-function createDesktopNavbar(pages, page) {
-    let navbar = "";
+function createNavbar(pages, page) {
+    let navbar = '<ul class="nav-list">\n';
     pages.forEach((entry) => {
-        let cssClass = entry.title === page.title ? "navigation_current" : "navigation";
+        let cssClass = entry.title === page.title ? "active" : "";
         let dest = destFileNameForPage(entry);
-        let line = '<a class ="' + cssClass + '" href="'
-            + destFileNameForPage(entry) + '">'
-            + entry.title + '</a> |\n';
-        navbar += line;
+        navbar += '  <li class="' + cssClass + '"><a href="' + dest + '">' + entry.title + '</a></li>\n';
     });
-
-    // Remove last | character
-    navbar = navbar.slice(0, -2);
-
-    return navbar;
-}
-
-
-function createMobileNavbar(pages, page) {
-    let navbar = "";
-    pages.forEach((entry) => {
-        let cssClass = entry.title === page.title ? ' class="active"' : '';
-        let dest = destFileNameForPage(entry);
-        let line = '<li' + cssClass + '><a href="'
-            + destFileNameForPage(entry) + '">'
-            + entry.title + '</a></li>\n';
-        navbar += line;
-    });
-
+    navbar += '</ul>';
     return navbar;
 }
 
@@ -56,27 +35,14 @@ function createSlideshow(page) {
 
     let ret = "";
     if (page.images.length > 1) {
-        // data-rider="carousel" starts the slideshow
-        // data-interval is the time between slides in ms
-        // data-pause="" prevents pausing on "hover"
-        ret = '<div id="myCarousel" \
-                    class="carousel slide carousel-fade" \
-                    data-ride="carousel" \
-                    data-interval="4000" \
-                    data-pause="" \
-                    > \n\
-                    <div class="carousel-inner" role="listbox">\n';
-
+        ret = '<div class="slideshow">\n';
         page.images.forEach((image, index) => {
-            let entry = util.format('<div class="item %s"><img src="assets/%s" width="100%" alt="image_%d"></div>\n',
-                index == 0 ? "active" : "", image, index);
-            ret += entry;
+            let activeClass = index === 0 ? " active" : "";
+            ret += `  <div class="slide${activeClass}"><img src="assets/${image}" alt="Slide ${index + 1}"></div>\n`;
         });
-
-        ret += '</div>\n</div>';
-
+        ret += '</div>';
     } else {
-        ret = '<img src="assets/' + page.images[0] + '" alt="placeholder 960" width="100%" class="img-responsive center-block"/>';
+        ret = '<div class="single-image"><img src="assets/' + page.images[0] + '" alt="' + page.title + '" class="img-responsive"/></div>';
     }
 
     return ret;
@@ -90,15 +56,11 @@ function createHtml(template, page, markdown) {
 
     // Replace title and content
     let output = template.replace("#{post.content}", compiled)
-        .replace("#{post.title}", page.title);
+        .replaceAll("#{post.title}", page.title);
 
-    // Replace desktop navbar
-    let navbarDesktop = createDesktopNavbar(pages, page);
-    output = output.replace("#{navbarDesktop}", navbarDesktop);
-
-    // Replace mobile navbar
-    let navbarMobile = createMobileNavbar(pages, page);
-    output = output.replace("#{navbarMobile}", navbarMobile);
+    // Replace all instances of #{navbar}
+    let navbar = createNavbar(pages, page);
+    output = output.replace(/#{navbar}/g, navbar);
 
     // Create the slideshow
     let slideshow = createSlideshow(page);
