@@ -12,8 +12,8 @@ Tel.: 0699 817 24 716
 
 #### Erwachsene
 
-Erstordination: **150 €**  
-Folgeordination: **100 €**
+Erstordination: **160 €**  
+Folgeordination: **110 €**
 
 #### Kinder
 
