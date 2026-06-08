@@ -81,7 +81,8 @@ body {
   padding: 16px 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .logo-link {
@@ -132,47 +133,35 @@ body {
 .desktop-nav .nav-list {
   display: flex;
   list-style: none;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-start;
 }
 
 .desktop-nav .nav-list a {
   text-decoration: none;
   color: var(--color-text-muted);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   transition: var(--transition);
-  position: relative;
-  padding: 6px 0;
-}
-
-.desktop-nav .nav-list a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 2px;
-  background-color: var(--color-accent);
-  transition: var(--transition);
-  transform: translateX(-50%);
+  padding: 6px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
 }
 
 .desktop-nav .nav-list a:hover {
   color: var(--color-primary);
-}
-
-.desktop-nav .nav-list a:hover::after {
-  width: 100%;
+  background-color: var(--color-surface-accent);
 }
 
 .desktop-nav .nav-list .active a {
-  color: var(--color-primary);
+  color: #ffffff;
+  background-color: var(--color-primary);
   font-weight: 600;
 }
 
-.desktop-nav .nav-list .active a::after {
-  width: 100%;
-  background-color: var(--color-primary);
+.desktop-nav .nav-list .active a:hover {
+  background-color: var(--color-primary-light);
 }
 
 /* Mobile Menu Toggle */
@@ -367,7 +356,6 @@ body {
 
 @media (max-width: 768px) {
   .slideshow {
-    aspect-ratio: 16 / 9;
     margin-bottom: 24px;
   }
 }
@@ -393,11 +381,6 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  transition: transform 6s ease;
-}
-
-.slideshow .slide.active img {
-  transform: scale(1.05); /* Soft Ken Burns scale effect */
 }
 
 /* Single Image Layout (fallback/no-carousel) */

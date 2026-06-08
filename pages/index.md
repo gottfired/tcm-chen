@@ -54,7 +54,7 @@ Verleihung des Fortbildungsdiploms der Österreichischen Ärztekammer.
 Die feierliche Eröffnung meiner Praxis fand am 24. September 2010 in Anwesenheit von Bürgermeister KommR Kurt Staska statt. Den festlichen Rahmen bot die 15-Jährige Jubiläumsfeier der Gemeinschaftspraxis Baden Leesdorf von Helene Märzweiler.
 
 <div align="center" style="font-family:'Arial';font-size:10px;">
-    <br><img src="assets/eroeffnung_1.jpg" alt="eroeffnung_1.jpg" class="img-responsive center-block">
+    <br><img src="assets/eroeffnung_1.jpg" alt="eroeffnung_1.jpg" class="img-responsive center-block"><br>
     Blumenübergabe durch Bürgermeister KommR Kurt Staska.
     <br>Foto: © 2010psb/zink, Abdruck honorarfrei
 </div>
