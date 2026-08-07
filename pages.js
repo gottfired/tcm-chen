@@ -38,6 +38,12 @@ module.exports = [
     src: "infos.md",
     images: ["map.png"],
   },
+  {
+    title: "Impressum",
+    src: "impressum.md",
+    images: [],
+    inNavbar: false,
+  },
   /*{
         title: "Links",
         src: "links.md",

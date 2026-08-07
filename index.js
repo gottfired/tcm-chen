@@ -21,6 +21,9 @@ function destFileNameForPage(page) {
 function createNavbar(pages, page) {
     let navbar = '<ul class="nav-list">\n';
     pages.forEach((entry) => {
+        if (entry.inNavbar === false) {
+            return;
+        }
         let cssClass = entry.title === page.title ? "active" : "";
         let dest = destFileNameForPage(entry);
         navbar += '  <li class="' + cssClass + '"><a href="' + dest + '">' + entry.title + '</a></li>\n';
@@ -34,6 +37,9 @@ function createSlideshow(page) {
     console.log("Slideshow for " + JSON.stringify(page));
 
     let ret = "";
+    if (!page.images || page.images.length === 0) {
+        return ret;
+    }
     if (page.images.length > 1) {
         ret = '<div class="slideshow">\n';
         page.images.forEach((image, index) => {
