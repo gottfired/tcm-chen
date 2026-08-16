@@ -45,6 +45,9 @@ Jeweils am Donnerstag, 19-20h:
 Ort: TCM Praxis Chen, Schwartzstr. 7/7, 2500 Baden.    
 Kosten: 5 Abende zusammen 90 €
 
+**Ausgebucht!  
+Ersatztermin: Sa. 3.10.26, 8-13h (geblockt)**
+
 #### Die 6 Heilenden Laute
 
 Klang &amp; Balance
