@@ -36,7 +36,7 @@ module.exports = [
   {
     title: "Infos",
     src: "infos.md",
-    images: ["map.png"],
+    map: true,
   },
   {
     title: "Impressum",

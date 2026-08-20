@@ -398,6 +398,29 @@ body {
   display: block;
 }
 
+/* Google Maps Embed */
+.map-embed {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(42, 68, 59, 0.08);
+  margin-bottom: 40px;
+  background-color: var(--color-surface-accent);
+}
+
+.map-embed iframe {
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  border: 0;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .map-embed {
+    margin-bottom: 24px;
+  }
+}
+
 /* Article Styling (parsed Markdown content) */
 .page-content {
   color: var(--color-text);

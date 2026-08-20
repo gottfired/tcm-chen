@@ -36,6 +36,14 @@ function createNavbar(pages, page) {
 function createSlideshow(page) {
     console.log("Slideshow for " + JSON.stringify(page));
 
+    if (page.map) {
+        return '<div class="map-embed">'
+            + '<iframe src="https://www.google.com/maps?q=Schwartzstra%C3%9Fe%207%2FHaus%207%2C%202500%20Baden%2C%20%C3%96sterreich&z=16&output=embed" '
+            + 'title="Standortkarte Schwartzstraße 7/Haus 7, 2500 Baden" style="border:0;" '
+            + 'allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+            + '</div>';
+    }
+
     let ret = "";
     if (!page.images || page.images.length === 0) {
         return ret;
