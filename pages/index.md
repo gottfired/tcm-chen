@@ -13,6 +13,24 @@ _Heidrun Chen_
 
 #### <br>News
 
+##### 20.8.2026 - Die Mühlbachpraxis
+
+Wir freuen uns, einen besonderen Meilenstein mit Ihnen zu teilen: Aus der bisherigen TCM-Ordination Chen entsteht 
+[die Mühlbachpraxis](https://diemuehlbachpraxis.at) – ein erweitertes Zentrum für ganzheitliche Gesundheit und Wohlbefinden.
+
+Was als spezialisierte Praxis für Traditionelle Chinesische Medizin begann, wächst nun zu einer vielseitigen Gemeinschaftspraxis heran. Durch den Zusammenschluss verschiedener therapeutischer Fachbereiche können wir Sie in Zukunft noch individueller, umfassender und fundierter begleiten.
+
+Das erwartet Sie in [der Mühlbachpraxis](https://diemuehlbachpraxis.at):
+
+Bewährte Expertise: Die gewohnte Behandlungsqualität und persönliche Betreuung im Bereich der TCM bleiben Ihnen selbstverständlich in vollem Umfang erhalten.
+
+Erweitertes Angebot: Neue therapeutische Disziplinen ergänzen unser Spektrum für Ihre Gesundheit.
+
+Ganzheitlicher Ansatz: Kurze Wege und enge Zusammenarbeit verschiedener Fachbereiche unter einem Dach.
+
+Wir danken Ihnen für das Vertrauen, das Sie uns in den vergangenen Jahren entgegengebracht haben, und freuen uns darauf, Sie in den Räumlichkeiten und Strukturen der Mühlbachpraxis willkommen zu heißen.
+
+
 ##### 10.11.2021 - Diplom Umweltmedizin
 
 Verleihung des Umweltmedizin Diploms der Österreichischen Ärtzekammer.

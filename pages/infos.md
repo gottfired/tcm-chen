@@ -1,6 +1,6 @@
 ### Kontakt
 
-#### Dr. Heidrun Chen
+#### Dr. Heidrun Chen - Die Mühlbachpraxis
 
 Schwartzstraße 7/Haus 7  
 2500 Baden  
