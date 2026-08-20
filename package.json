@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "build": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,7 +14,6 @@
   "author": "Gottfried Chen",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.4.7",
     "marked": "^0.3.6"
   }
 }

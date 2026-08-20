@@ -1,10 +1,7 @@
 let marked = require('marked');
-let Promise = require('bluebird');
-let nodeFs = require('fs');
-let fs = Promise.promisifyAll(nodeFs);
+let fs = require('fs/promises');
 let pages = require("./pages");
 let path = require("path");
-let util = require('util');
 
 
 function destFileNameForPage(page) {
@@ -64,7 +61,7 @@ function createSlideshow(page) {
 
 
 // Creates and writes a single html file
-function createHtml(template, page, markdown) {
+async function createHtml(template, page, markdown) {
     // md to html
     let compiled = marked(markdown);
 
@@ -85,31 +82,29 @@ function createHtml(template, page, markdown) {
 
     console.log("Converting " + page.src + " to " + dest);
 
-    // Write final output
-    fs.writeFile("docs/" + dest, output, (error) => {
-        if (error) {
-            console.log(error);
-        }
-    });
+    try {
+        await fs.writeFile("docs/" + dest, output);
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 
-function convert() {
-    fs.readFileAsync("docs/template.html", "utf-8")
-        .then(template => {
-            pages.forEach(page => {
-                fs.readFileAsync("pages/" + page.src, "utf-8")
-                    .then(markdown => {
-                        createHtml(template, page, markdown);
-                    })
-                    .catch((err) => {
-                        console.log(err);
-                    });
-            })
-        })
-        .catch((err) => {
-            console.log(err);
-        });
+async function convert() {
+    try {
+        let template = await fs.readFile("docs/template.html", "utf-8");
+
+        for (const page of pages) {
+            try {
+                let markdown = await fs.readFile("pages/" + page.src, "utf-8");
+                await createHtml(template, page, markdown);
+            } catch (err) {
+                console.log(err);
+            }
+        }
+    } catch (err) {
+        console.log(err);
+    }
 }
 
 
