@@ -34,7 +34,7 @@ module.exports = [
     images: ["acupuncture.jpg", "herbs.jpg", "palm_massage.jpg"],
   },
   {
-    title: "Infos",
+    title: "Kontakt & Infos",
     src: "infos.md",
     map: true,
   },
