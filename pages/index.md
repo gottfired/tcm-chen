@@ -30,17 +30,55 @@ Ganzheitlicher Ansatz: Kurze Wege und enge Zusammenarbeit verschiedener Fachbere
 
 Wir danken Ihnen für das Vertrauen, das Sie uns in den vergangenen Jahren entgegengebracht haben, und freuen uns darauf, Sie in den Räumlichkeiten und Strukturen der Mühlbachpraxis willkommen zu heißen.
 
+##### Seit Juli 2026 – Praxiserweiterung
+Herzlich willkommen im Team: Einstieg von **Petra Zöchling** sowie neue **Yoga-Einheiten mit Niki**.
+
+##### Seit Juni 2026 – Praxiserweiterung
+Erweiterung des Praxisangebots mit dem Beitritt von **Tina Peritsch**.
+
+##### Seit Mai 2026 – Praxiserweiterung
+Verstärkung des Teams durch den Eintritt von Kerstin **Rojko Vetter**.
+
+##### Mai 2026 Start von Qi Gong & Waldbaden
+Am 9. Mai 2026 starten die neuen Kursangebote für Qi Gong und Waldbaden.
+
+##### Seit Mai 2026 Vortragstätigkeit Wiener Sozialdienste
+Regelmäßige Vortragstätigkeit im Bereich Pharmazie für die Wiener Sozialdienste.
+
+##### Nov 2025 - ÖÄK Diplom Schulärztin  
+Erfolgreicher Abschluss und Verleihung des Schulärztinnen-Diploms der Österreichischen Ärztekammer.
+
+##### Seit Oktober 2025 – Praxiserweiterung
+Erweiterung unseres Teams durch das Mitwirken von **Yasmin Schöndorfer**.
+
+##### 1.1.2025 - Schulärztin
+Seit dem 1. Jänner 2025 tätig als Schulärztin am Bundesinstitut für Sozialpädagogik in Baden.
+
+##### Seit August 2024 – Praxiserweiterung
+Verstärkung des Praxis-Teams durch den Eintritt von **Claudia Matzka**.
+
+##### Juni 2024 - Fortbildung Waldbaden  
+Abschluss der Ausbildung zur zertifizierten Waldbaden-Trainerin.
+
+##### Juni 2024 - Mentaltrainerin  
+Erfolgreich absolvierte Ausbildung mit Diplomabschluss als Mentaltrainerin.
+
+##### Seit September 2023 – Praxiserweiterung
+Seit September 2023 bereichert **Nina Schmölzer** unser Team.
+
+##### 1.1.2022 - Wir übersiedeln
+Die Praxis ist an den neuen Standort in der Schwartzstraße 7/7, 2500 Baden übersiedelt.
+
+##### Seit 2021 - Vortragstätigkeit Umweltmedizin
+Regelmäßige Vorträge zu den Themen Klimaschutz und Gesundheit, unter anderem am WIFI St. Pölten sowie bei der Ärztekammer Wien.
 
 ##### 10.11.2021 - Diplom Umweltmedizin
-
-Verleihung des Umweltmedizin Diploms der Österreichischen Ärtzekammer.
+Verleihung des Umweltmedizin Diploms der Österreichischen Ärtzekammer. 
 
 ##### 25.6.2021 - Fortbildungsdiplom
-
 Verleihung des Fortbildungsdiploms der Österreichischen Ärztekammer.
 
 ##### 12.11.2017 - Klimaschutz
-
 Um diese Ordination (inklusive Import der Akupunkturnadeln und chinesischer Kräuter)möglichst CO2 neutral zu führen, unterstützen wir Grundstückskäufe und
 Wiederbewaldungen im Regenwald der Österreicher in Costa Rica mit **830m2 und 15 gepflanzten Bäumen.**
 
