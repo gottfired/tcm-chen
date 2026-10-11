@@ -46,7 +46,7 @@ Ort: TCM Praxis Chen, Schwartzstr. 7/7, 2500 Baden.
 Kosten: 5 Abende zusammen 90 €
 
 Jeweils am Donnerstag, 19-20h:  
-7.1.27, 14.1.27, 21.1.27, 29.1.27, 11.2.27    
+7.1.27, 14.1.27, 21.1.27, 28.1.27, 11.2.27    
 Ort: TCM Praxis Chen, Schwartzstr. 7/7, 2500 Baden.    
 Kosten: 5 Abende zusammen 90 €
 
