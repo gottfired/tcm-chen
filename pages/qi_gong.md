@@ -41,12 +41,14 @@ Diese Übungen unterstützen:
 - Beweglichkeit, Atmung und Wohlbefinden
 
 Jeweils am Donnerstag, 19-20h:  
-24.9., 1.10., 8.10., 15.10., 22.10.    
+24.9.26, 1.10.26, 8.10.26, 15.10.26, 22.10.26  
 Ort: TCM Praxis Chen, Schwartzstr. 7/7, 2500 Baden.    
 Kosten: 5 Abende zusammen 90 €
 
-**Ausgebucht!  
-Ersatztermin: Sa. 3.10.26, 8-13h (geblockt)**
+Jeweils am Donnerstag, 19-20h:  
+7.1.27, 14.1.27, 21.1.27, 29.1.27, 11.2.27    
+Ort: TCM Praxis Chen, Schwartzstr. 7/7, 2500 Baden.    
+Kosten: 5 Abende zusammen 90 €
 
 #### Die 6 Heilenden Laute
 
@@ -64,7 +66,7 @@ und unterstützt dessen Funktion.
 
 _Entdecke deine Stimme als Kraftquelle!_
 
-Samstag, 28.11.26, 9-12h,  
+Samstag, 21.11.26, 9-12h,  
 Ort: TCM Praxis Chen, Schwartzstr. 7/7, 2500 Baden  
 Kosten: 55 €
 
